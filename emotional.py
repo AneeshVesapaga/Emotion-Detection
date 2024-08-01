@@ -36,19 +36,19 @@ if user_input:
 if st.button("Submit"):
     if prediction == 0:
         st.write("Sad")
-        st.image("sad.jpeg",width = 150)
+        st.image(r"sad.jpeg",width = 150)
     elif prediction == 1:
         st.write("Joy")
-        st.image("joy.png",width = 150)
+        st.image(r"joy.png",width = 150)
     elif prediction == 2:
         st.write("Love")
-        st.image("love.jpeg",width = 150)
+        st.image(r"love.jpeg",width = 150)
     elif prediction == 3:
         st.write("Anger")
-        st.image("angry.png",width = 150)
+        st.image(r"angry.png",width = 150)
     elif prediction == 4:
         st.write("Fear")
-        st.image("angry.png",width = 150)
+        st.image(r"fear.png",width = 150)
     elif prediction == 5:
         st.write("Surprise")
-        st.image("surprise.jpeg",width = 150)
+        st.image(r"surprise.jpeg",width = 150)
