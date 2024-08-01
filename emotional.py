@@ -15,8 +15,8 @@ st.write('This app performs emotional analysis Distribution.')
 
 
 try:
-    model = pickle.load(open("ea.pkl",'rb'))
-    bow = pickle.load(open("bow1.pkl",'rb'))
+    model = pickle.load(open(r"ea.pkl",'rb'))
+    bow = pickle.load(open(r"bow1.pkl",'rb'))
 except Exception as e:
     st.error(f"An error occurred: {e}")
 
