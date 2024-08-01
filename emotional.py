@@ -6,8 +6,8 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Display title
-image_path = 'ino_img.jpg'  # Replace with your actual PNG image file path
-st.image(image_path)
+
+st.image(r"ino_img.jpg")
 
 # Display the PNG image
 st.title("Emotional Analysis Distribution ")
